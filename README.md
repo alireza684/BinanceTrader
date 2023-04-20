@@ -10,7 +10,7 @@ python -m pip install numpy pandas schedule pytz tensorflow stock-indicators sci
 ```
 2. You need to fetch and download the data from Binance. Run the `Downloades` file. After that, run the `Preprocessing` file to train and save the model and scaler (It is optional, you can use the model and scaler I prepared for you. But it is recommended to do it to have fresh data).
 
-3. Open the `BinanceTrader` file and replace the `api_key` and `secret_key` (situated on almost the end of the file) based on your API information which you have already got from Binance (Want more details? Click [here]()). If you want to use Binance Testnet, do not forget to set the `testnet` value to `True`. You should also replace the `model_path` and `scaler_path` with the path of your model and scaler in your local computer or server (Having trouble finding the path? Click [here]()). When you are done, run the file and enjoy!
+3. Open the `BinanceTrader` file and replace the `api_key` and `secret_key` (situated on almost the end of the file) based on your API information which you have already got from Binance (Want more details? Click [here](https://support.coinigy.com/hc/en-us/articles/360001144614-How-do-I-find-my-API-key-on-Binance-com-)). If you want to use Binance Testnet, do not forget to set the `testnet` value to `True`. You should also replace the `model_path` and `scaler_path` with the path of your model and scaler in your local computer or server (Having trouble finding the path? Click [here](https://www.wikihow.com/Find-a-File%27s-Path-on-Windows)). When you are done, run the file and enjoy!
 
 ## What does this code do?
 
