@@ -2,8 +2,8 @@ from binance.client import Client
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
-api_key = "WIAp7Rc8jehd7XKWShoz0xw8HhFDPDcgPBoIgHA2fES17xWDPdN0kep16Jt31LeP"
-secret = "XmqOwOcbGD6HomxQpf3PybJwZf0MjcU3NiJa4Gv56xO3FO6HLX4LTGBpTdJBd4dY"
+api_key = "------"
+secret = "------"
 # now = datetime.utcnow()
 # start = str(now - timedelta(days = 60))
 start = str(pd.to_datetime(client._get_earliest_valid_timestamp("LINKUSDT", "15m"), unit = "ms")) # Replace "LINKUSDT" and "15m" with any currency pair and timeframe you want.
